@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-      var list = ['NYC', 'SF', 'LA', 'ATX', 'SYD']
+      var list = ['Select a City', 'NYC', 'SF', 'LA', 'ATX', 'SYD']
 
         list.forEach(function (item) {
           var option = $('<option>').attr('value',item).text(item)
